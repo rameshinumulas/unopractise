@@ -15,13 +15,13 @@ export default function Inc() {
       <center>
         <h1 style={{ fontSize: "30px" }}>{count}</h1>
         <button
-          style={{ padding: "15px", marginRight: "30px" }}
+          style={{ padding: "15px", marginRight: "30px",backgroundColor:"#24508d",color:"#fff" }}
           onMouseMove={inc}
         >
           +
         </button>
         <button
-          style={{ padding: "15px", marginLeft: "30px" }}
+          style={{ padding: "15px", marginLeft: "30px",backgroundColor:"#24508d",color:"#fff"  }}
           onMouseMove={dec}
         >
           -
